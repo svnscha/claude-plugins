@@ -1,0 +1,20 @@
+{
+  "name": "svnscha",
+  "owner": {
+    "name": "Sven Scharmentke",
+    "email": "24257042+svnscha@users.noreply.github.com"
+  },
+  "description": "Sven's personal Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "github-utils",
+      "source": "./plugins/github-utils",
+      "description": "Skills for common GitHub workflows, such as consolidating one or more Dependabot PRs into a single superseding PR."
+    },
+    {
+      "name": "claude-utils",
+      "source": "./plugins/claude-utils",
+      "description": "Onboard and sync a device's ~/.claude configuration from versioned templates in this repo, with a safe read / diff / merge / overwrite flow."
+    }
+  ]
+}

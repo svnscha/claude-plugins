@@ -1,0 +1,12 @@
+{
+  "name": "claude-utils",
+  "description": "Onboard and sync a device's ~/.claude configuration from versioned templates hosted in this repo, with a safe read / diff / merge / overwrite flow.",
+  "author": {
+    "name": "Sven Scharmentke",
+    "email": "24257042+svnscha@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/svnscha/claude-plugins/tree/main/plugins/claude-utils",
+  "repository": "https://github.com/svnscha/claude-plugins",
+  "license": "MIT",
+  "keywords": ["claude-code", "config", "onboarding", "dotfiles", "claude-md"]
+}

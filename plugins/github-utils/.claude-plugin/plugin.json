@@ -1,0 +1,12 @@
+{
+  "name": "github-utils",
+  "description": "Skills for common GitHub workflows: consolidate Dependabot PRs and more.",
+  "author": {
+    "name": "Sven Scharmentke",
+    "email": "24257042+svnscha@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/svnscha/claude-plugins/tree/main/plugins/github-utils",
+  "repository": "https://github.com/svnscha/claude-plugins",
+  "license": "MIT",
+  "keywords": ["github", "dependabot", "pull-requests", "automation", "gh"]
+}
