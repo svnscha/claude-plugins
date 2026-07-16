@@ -1,0 +1,12 @@
+{
+  "name": "sysadmin-utils",
+  "description": "Skills for Windows system administration: reclaim unallocated disk space blocked by a recovery partition, and more.",
+  "author": {
+    "name": "Sven Scharmentke",
+    "email": "24257042+svnscha@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/svnscha/claude-plugins/tree/main/plugins/sysadmin-utils",
+  "repository": "https://github.com/svnscha/claude-plugins",
+  "license": "MIT",
+  "keywords": ["windows", "disk", "partition", "diskpart", "recovery", "winre", "reagentc", "storage", "sysadmin"]
+}

@@ -15,6 +15,11 @@
       "name": "claude-utils",
       "source": "./plugins/claude-utils",
       "description": "Onboard and sync a device's ~/.claude configuration from versioned templates in this repo, with a safe read / diff / merge / overwrite flow."
+    },
+    {
+      "name": "sysadmin-utils",
+      "source": "./plugins/sysadmin-utils",
+      "description": "Skills for Windows system administration, such as extending a volume into unallocated space that a recovery partition blocks."
     }
   ]
 }
