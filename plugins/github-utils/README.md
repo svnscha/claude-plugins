@@ -41,6 +41,29 @@ Usage:
 /github-utils:consolidate-dependabot 142 145    # include only these PRs
 ```
 
+### `/github-utils:diagnose-git-auth`
+
+Work out why Git authentication fails over HTTPS, and propose a fix. It:
+
+1. Scopes the failure to a host (and bails out early on SSH remotes).
+2. Collects config, environment, and the credentials stored in your OS keychain.
+3. Resolves which helper Git *actually* uses — an empty `helper =` silently
+   resets the list, so the one you configured may never run.
+4. Tests each candidate helper in isolation with a read-only `ls-remote`.
+5. Reports what broke, what is healthy, and why your GUI client still works.
+6. Proposes fixes with tradeoffs, and applies only the one you pick.
+
+Analysis is read-only; nothing is changed without your approval, and
+`~/.gitconfig` is backed up first.
+
+Usage:
+
+```shell
+/github-utils:diagnose-git-auth                          # current repo, origin
+/github-utils:diagnose-git-auth github.com               # a specific host
+/github-utils:diagnose-git-auth https://github.com/o/r.git  # a specific remote
+```
+
 ## Roadmap
 
 More GitHub workflow skills will be added here over time. Each new skill is a
